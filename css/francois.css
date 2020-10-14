@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #fff0f5;
+}
+header {
+    width: 100%;
+}
+figure>img {
+    border-radius: 50%;
+    width: 200px;
+    display: block;
+    margin: 1rem auto;
+
+}
+figcaption {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+ul {
+    list-style: none;
+    margin-left: 1rem;
+}
+li:before {
+    content: "* " 
+ }
+ #profil {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     margin: 2rem auto;
+ }
+ #studies {
+     background-color:#767CEE;
+     color: #fff;
+ }
+ #competences {
+     background-color: #767CEE;
+     color: #fff;
+ }
+.projet {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pjt {
+    margin: 2rem auto;
+    background-color: #767CEE;
+    width: 18rem;
+}
+.pjt img {
+    position: relative;
+    margin: 1rem 1rem ;
+}
+#contact {
+    margin-bottom: 2rem;
+}
+ @media screen and (min-width: 700px) {
+     header {
+         position: relative;
+     }
+     figure>img {
+         position: absolute;
+         right:5rem;
+         top: 0;
+         margin-bottom: 2rem;
+     }
+     figcaption {
+         width:20%;
+         position: absolute;
+         left: 0;
+         top:0;
+         text-align: left;
+     }
+     #prof {
+        position: relative;
+        top: 15rem;
+     }
+     #pj {
+         position: relative;
+         top: 25rem;
+     }
+     #foot {
+         position: relative;
+         top: 35rem;
+     }
+   
+ }

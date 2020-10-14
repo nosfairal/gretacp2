@@ -232,3 +232,12 @@ form {
 form input:focus {
     background-color: #f0f;
 }
+@media screen and (max-width: 600px) {
+    body {
+        background-color: #f72;
+        background-image: none;
+    }
+    #team img {
+        display: none;
+    }
+}
