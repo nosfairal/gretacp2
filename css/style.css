@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400&display=swap');
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: fixed left bottom url(../pics/banner2.png)  repeat-x, fixed top right url(../pics/sun.png) no-repeat;
+
+   
+    }
+h1, h2, h3, h4 {
+    font-family: "Sansita Swashed", "sans-serif";
+}
+h1 {
+    font-variant: small-caps;
+    letter-spacing: .25em;
+    }
+#top {
+    text-shadow: -2px -3px 5px lightcoral, 2px 3px 5px orange ;
+
+}
+h2 {
+    text-shadow: 0 0 6px cyan;
+}
+blockquote span::before{
+    content: '\201C';
+}
+blockquote span::after{
+    content: '\201D';
+}
+figure {
+    text-align: center;
+}
+pre {
+    /*border: 32px black solid;
+    border-width: 32px 16px 8px 4px;*/
+    border: black solid .1em;
+    border-radius: 3mm ;
+    padding: 1em;
+    width: 50%;
+    font-size: 1.5em;
+    background-color: lavender;
+    background-image: url("../pics/floor.png");
+    background-image: linear-gradient(yellow, orange, red);
+    background-image: radial-gradient(lime, green);
+
+}
+h1+p::first-letter, h2 +p::first-letter {
+    font:  3.5em bolder;
+  }
+h1+p::first-line, h2+p::first-line {
+    font: italic;
+}
+h1 +main>p:first-child::first-line {
+    font-style: italic ;
+
+}
+ul>li {
+    list-style: url(../pics/bulleted-list.png);
+}
+p:hover {
+    background-color: darkgoldenrod;
+}
+table {
+    width: 75%;
+    border: solid #000 .1em;
+}
+td, th {
+    border: solid #000 .1em;
+}
+thead {
+    background-color: #3D5150;
+    color: #EF7AA3;
+}
+tbody tr:nth-of-type(2n+1) {
+    background-color: #C7CCD0;
+}
+tfoot {
+    background-color:#5E6062;
+    color: #EDF687;
+    font-weight: bold;
+}
+table>caption {
+    font-weight: bolder;
+    color: #981442;
+    margin-bottom: .5em;
+}
+tbody td:last-child {
+    text-align: right;
+}
+tbody tr:hover {
+    background-color: #EDF687 ;
+    cursor: crosshair;
+    transition: all 500 ease-in ;
+}
+tbody tr {
+    transition: all 500 ease-in;
+}

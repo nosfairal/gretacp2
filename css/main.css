@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(../pics/da_vinci.jpg);
+}
+main {background-color: #fff;
+    opacity: .8;
+    height: 100%;
+}
+header {
+    background: fixed center url(../pics/leo.jpg);
+    text-align: center;
+    height:10em;
+    color: #000000;
+}
+#warning {
+    background-color: #f00;
+    padding: 0.5rem;
+    color: #fff;
+    animation: clignote 3s linear infinite ;
+}
+
+@keyframes clignote {
+    from {
+        background-color: #f00;
+        color: #fff;
+    }
+    15% {
+        background-color: #f50;
+        color: #fff;
+    }
+    50% {
+        background-color: #ff0;
+        color: #fff;
+    }
+    85% {
+        background-color: #f50;
+        color: #fff;
+    }
+    100% {
+        background-color: #f00;
+        color: #fff;
+    }
+}
+.btn {
+    display: inline-block;
+    background-color: #ddd;
+    border: #555 outset .5rem;
+    padding: 0.25rem;
+    margin: .25rem;
+    cursor: pointer;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#title {
+height: 5rem;
+line-height: 5rem;
+font:3em bolder;
+font-family:"Sansita Swashed", sans-serif;
+}
+#punchline {
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+#menu {
+    margin: 5em;
+}
+#menu>ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    }
+#menu a{
+    color:#8C1B0C ;
+    display: inline-block;
+    border: #8C1B0C solid .1rem;
+    padding: .25rem;
+    margin: .5rem .25rem;
+    text-decoration: none;
+    transition: all 1000 linear;
+}
+#menu a:hover {
+    border: solid .25rem #fff;
+    color: #fff;
+    background-color:#8C1B0C;
+    transition: all 1000 linear;
+}
+#menu li{
+    display: inline-block;
+}
+#team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#team>figure {
+    margin: .5rem;
+}
+#team figcaption {
+    text-align: center;
+}
+.rounded {
+    width: 150px;
+    border-radius: 50%;
+    border: #000 solid 4px ;
+}
+form {
+    height: 7rem;
+}
+.rectangle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.projet {
+    background-color: #63629C;
+    width: 20rem;
+    height: 32rem;
+}
+.projet img {
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+.rounded:hover {
+    transform:  translate(50px,50px) scale(2) rotate(360deg);
+    /*transform: matrix(0.87,-0.5,2,0.87,0,1);
+    transition: all 1s linear;*/
+}
+.rounded {
+    transition: all 1s linear;
+}
+.projet h4 {
+    text-align: center;
+    position: relative;
+    top:2rem;
+    font-size: 2rem;
+}
+.projet p {
+    position: relative;
+    top: 3rem;
+}
+.projet a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #FCA1E8;
+    border: #000 outset .25rem;
+    padding: .25rem;
+    position: absolute;
+    top: 0;
+    right:0;
+}
+#testimony {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.temoignage {
+    width: 20rem;
+    height: 27rem;
+    background-color:#D6D9BE;
+    opacity: 1;
+}
+.temoignage a {
+    text-decoration: none;
+}
+.temoignage audio {
+    margin: 5rem 0;
+    width: 100%;
+}
+.temoignage video {
+    margin: 2rem 0;
+    width: 100%;
+}
+#blabla {
+    background-color:#0EF;
+    margin: 2rem;
+
+
+}
+#blabla ul {
+    padding: 0;
+    list-style: none;
+}
+#blabla>ul {
+    display: flex;
+    justify-content: space-around;
+}
+#footer>ul>li {
+    margin: 1rem;
+    padding: 0 1rem;;
+}
+#blabla>ul>li:nth-child(2){
+    border-left: #fff dotted .1rem;
+    border-right: #fff dotted .1rem;
+    padding: 0 5rem;
+}
+
+#blabla span{
+    font-weight: bolder;
+}
+#register>form {
+    width: 50%;
+    margin: 0 auto;
+}
+#register label {
+    width:33%;
+    font-weight: bold;
+    text-align: right;
+}
+#register input {
+    width: 67%;
+}
+
+
+
+form input:focus {
+    background-color: #f0f;
+}

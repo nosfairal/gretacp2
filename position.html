@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positionnement</title>
+    <style>
+        div{
+            /*width:11rem;
+            height: 11rem;*/
+            border: #000 dotted .25rem;
+        }
+        #a {
+            background-color:red;
+            height: 10rem;
+            width:10rem;
+            position: absolute;
+            z-index: 1;
+        }
+        #b {
+            background-color: green;
+            position: absolute;
+            top: 5rem;
+            left: 5rem;
+            height: 10rem;
+            width:10rem;
+        }
+        #c {
+            position: absolute;
+            background-color: blue;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div id="a">ROUGE</div>
+    <div id="b">VERT</div>
+    <div id="c">BLEU</div>
+</body>
+</html>
