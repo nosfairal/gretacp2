@@ -25,6 +25,9 @@ ul {
     list-style: none;
     margin-left: 1rem;
 }
+#studies p {
+    padding-left: 1rem;
+}
 li:before {
     content: "* " 
  }
@@ -32,29 +35,43 @@ li:before {
      width: 100%;
      display: flex;
      flex-wrap: wrap;
-     margin: 2rem auto;
+     margin: 1rem auto;
+     line-height: 2rem;
  }
  #studies {
-     background-color:#767CEE;
+     background-color: #6FACE1;
      color: #fff;
+     width: 23rem;
  }
  #competences {
-     background-color: #767CEE;
+     background-color: #6FACE1;
      color: #fff;
+ }
+ .titrecomp {
+     background-color: #fff0f5;
+     color: #000;
+     padding-bottom: 2rem;
+     
  }
 .projet {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
+li {
+    padding-right: .5rem;
+}
 .pjt {
     margin: 2rem auto;
-    background-color: #767CEE;
+    background-color: #6FACE1;
     width: 18rem;
 }
 .pjt img {
     position: relative;
     margin: 1rem 1rem ;
+}
+.pjt a {
+    color: #fff;
 }
 #contact {
     margin-bottom: 2rem;
@@ -63,18 +80,27 @@ li:before {
      header {
          position: relative;
      }
+     h1 {
+         line-height: 4rem;
+     }
+     #profil {
+         justify-content: space-around;
+     }
      figure>img {
          position: absolute;
-         right:5rem;
+         right: 3rem;
          top: 0;
          margin-bottom: 2rem;
      }
      figcaption {
          width:20%;
          position: absolute;
-         left: 0;
-         top:0;
+         left: 3rem;
+         top:2rem;
          text-align: left;
+     }
+     li {
+         padding-top: .8rem;
      }
      #prof {
         position: relative;
@@ -83,10 +109,11 @@ li:before {
      #pj {
          position: relative;
          top: 25rem;
+        
      }
      #foot {
          position: relative;
-         top: 35rem;
+         top: 33rem;
      }
    
  }
