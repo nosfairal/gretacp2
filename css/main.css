@@ -90,13 +90,13 @@ font-family:"Sansita Swashed", sans-serif;
     padding: .25rem;
     margin: .5rem .25rem;
     text-decoration: none;
-    transition: all 1000 linear;
+    transition: all 1s linear;
 }
 #menu a:hover {
     border: solid .25rem #fff;
     color: #fff;
     background-color:#8C1B0C;
-    transition: all 1000 linear;
+    transition: all 1s linear;
 }
 #menu li{
     display: inline-block;
